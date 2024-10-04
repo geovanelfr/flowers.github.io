@@ -1,0 +1,77 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #88cc88; /* Verde Shrek */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+section {
+    margin: 50px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#referencias-nerds .referencia {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#referencias-nerds img {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.neon-flower {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(circle, #ff5f5f, #ffb6b6);
+    border-radius: 50%;
+    box-shadow: 0 0 10px #ff5f5f, 0 0 20px #ffb6b6, 0 0 30px #ff5f5f;
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-20px) rotate(180deg);
+    }
+    100% {
+        transform: translateY(0) rotate(360deg);
+    }
+}
