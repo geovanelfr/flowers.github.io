@@ -19,20 +19,4 @@ document.addEventListener("scroll", () => {
     }
 });
 
-function createNeonFlowers() {
-    for (let i = 0; i < 10; i++) {
-        let flower = document.createElement('div');
-        flower.classList.add('neon-flower');
-        
-        // Posicionamento aleatório na tela
-        flower.style.left = Math.random() * 100 + "vw";
-        flower.style.top = (window.scrollY + Math.random() * 50) + "px";
 
-        document.body.appendChild(flower);
-
-        // Remover as flores após algum tempo
-        setTimeout(() => {
-            flower.remove();
-        }, 5000);
-    }
-}

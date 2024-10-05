@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #88cc88; /* Verde Shrek */
+    background-color: #1c3d5a; /* Verde Shrek */
     padding: 20px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -36,9 +36,20 @@ section {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+
+
 #referencias-nerds .referencia {
     margin-top: 20px;
     text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('../assets/images/referencias/Background.JPG'); /* Gradiente e imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir toda a área da seção */
+    background-position: center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto o usuário rola a página (opcional) */
+    padding: 50px;
+    color: #ffffff; /* Torna o texto da seção branco para melhorar o contraste */
+    font-weight: 600;
+    border-radius: 20px;
 }
 
 #referencias-nerds img {
@@ -46,11 +57,31 @@ section {
     border-radius: 10px;
 }
 
+.referencia p {
+    color: #fff; /* Cor do texto */
+    text-shadow: 2px 2px 2px #000000; /* Contorno preto em volta da letra */
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha se não houver espaço */
+    gap: 10px; /* Espaço entre as imagens */
+    justify-content: center; /* Centraliza as imagens na galeria */
+}
+
+.galeria-img {
+    width: calc(33% - 20px); /* Define a largura das imagens de forma responsiva, ocupando aproximadamente 3 colunas */
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 footer {
     text-align: center;
     padding: 20px;
     margin-top: 20px;
-    background-color: #333;
+    background-color: #1c3d5a;
     color: #fff;
 }
 
