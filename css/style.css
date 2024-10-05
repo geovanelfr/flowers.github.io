@@ -42,7 +42,7 @@ section {
     margin-top: 20px;
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                url('../assets/images/referencias/Background.JPG'); /* Gradiente e imagem de fundo */
+                url('../assets/Images/referencias/Background.JPG'); /* Gradiente e imagem de fundo */
     background-size: cover; /* Faz a imagem cobrir toda a área da seção */
     background-position: center; /* Centraliza a imagem */
     background-attachment: fixed; /* Mantém a imagem fixa enquanto o usuário rola a página (opcional) */
